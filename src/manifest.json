@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Quality Engineering Tips",
+    "description": "Receive daily tips on quality engineering.",
+    "version": "0.0.1",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "./background.js"
+    },
+    "action": {
+        "default_popup": "./popup.html",
+        "default_icons": {
+            "16": "images/favicon-16x16.png",
+            "32": "images/favicon-32x32.png"
+        }
+    },
+    "icons": {
+        "16": "images/favicon-16x16.png",
+        "32": "images/favicon-32x32.png"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';",
+        "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
+    }
+}

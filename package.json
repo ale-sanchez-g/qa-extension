@@ -1,0 +1,26 @@
+{
+  "name": "qa-extension",
+  "version": "0.0.1",
+  "description": "QA hints extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ale-sanchez-g/qa-extension.git"
+  },
+  "keywords": [
+    "extension",
+    "qa"
+  ],
+  "author": "Alejandro Sanchez Giraldo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ale-sanchez-g/qa-extension/issues"
+  },
+  "homepage": "https://github.com/ale-sanchez-g/qa-extension#readme",
+  "dependencies": {
+    "chrome-extension": "^0.0.1"
+  }
+}
